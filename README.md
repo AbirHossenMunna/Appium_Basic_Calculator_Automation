@@ -1,4 +1,3 @@
-
 # Appium_Basic_Calculator_Automation
 
 ### A basic calculator app is automated by testing its basic functionalites using Appium on an emulated device powered by Android Studio.
@@ -44,3 +43,5 @@ Here the following tasks are done:
 ```bash
   gradle clean test
 ```
+#### Test Summary
+![Test Summary](https://github.com/AbirHossenMunna/Appium_Basic_Calculator_Automation/assets/59090637/984c0d8a-f926-496c-ab36-e53d21a441c0)
