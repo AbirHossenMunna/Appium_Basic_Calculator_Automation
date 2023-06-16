@@ -45,3 +45,14 @@ Here the following tasks are done:
 ```
 #### Test Summary
 ![Test Summary](https://github.com/AbirHossenMunna/Appium_Basic_Calculator_Automation/assets/59090637/984c0d8a-f926-496c-ab36-e53d21a441c0)
+
+#### After automation to view allure report , give the following commands:
+```bash
+  allure generate allure-results --clean -o allure-report
+  allure serve allure-results
+```
+#### Report
+![Allure_Report1](https://github.com/AbirHossenMunna/Appium_Basic_Calculator_Automation/assets/59090637/1350fe1f-3b79-4f71-9501-331c1f97433e)
+![Allure_Suites](https://github.com/AbirHossenMunna/Appium_Basic_Calculator_Automation/assets/59090637/9075ed65-535b-47d6-9441-7bb40c387e91)
+#### Video
+
