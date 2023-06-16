@@ -21,8 +21,8 @@ public class Setup {
         caps.setCapability("os", "11");
         caps.setCapability("appPackage", PACKAGE_ID);
         caps.setCapability("appActivity", "com.android.calculator2.Calculator");
-        caps.setCapability("app", System.getProperty("user.dir")+"D:\\javaAssignment\\apk\\calculator.apk");
-        caps.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS,"true");
+        caps.setCapability("app", System.getProperty("user.dir") + "\\src\\test\\resources\\calculator.apk");
+        caps.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, "true");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver(url, caps);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
